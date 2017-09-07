@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Amazonas</string>
+    <string name="button_label">Accaptcha</string>
+    <string name="level_greetings">Click Button</string>
+    <string name="btn_1">Press Me</string>
+    <string name="logo">Android App</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.yulpuma.accaptcha.MainActivity"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="178dp"
+        android:src="@drawable/red_beats2"
+        android:onClick="bedroomDresserInfo"
+        android:labelFor="@+id/beats_Studio"
+        android:contentDescription="Beats Studio Wired Over-Ear Headphone - Red(Discontined by Manufacturer)" />
+
+    <ImageView android:id="@+id/bedroomDresserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="178dp"
+        android:src="@drawable/black_beats"
+        android:onClick="bedroomDresserInfo"
+        android:contentDescription="Beats Studio Wired Over-Ear Headphone - Black (Discontinued by Manufacturer)" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="178dp"
+        android:onClick="bedroomDresserInfo"
+        android:src="@drawable/red_beats"
+        android:id="@+id/imageView2"
+        android:contentDescription="Beats Studio 2.0 Wired Over-Ear Headphones REd" />
+
+</LinearLayout>
